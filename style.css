@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Pacifico&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #7D2AE7, #01C3CC);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px; /* Increased padding */
+}
+
+.logo a {
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 35px; /* Increased margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons .btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px; /* Adjusted padding */
+    border-radius: 8px; /* Slightly more rounded corners */
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.auth-buttons .btn-primary {
+    background-color: #7D2AE7; /* Canva Purple */
+}
+
+.auth-buttons .btn-secondary {
+    background-color: white;
+    color: #1e1e1e;
+}
+
+.hero-container {
+    text-align: center;
+    padding: 80px 50px; /* Adjusted padding */
+}
+
+.hero-text h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 105px;
+    margin: 0 auto;
+    font-weight: 400; /* Changed to thin */
+    line-height: 1.1;
+    letter-spacing: normal; /* Changed to normal */
+    max-width: 900px;
+    /* Removed text-shadow */
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin: 30px auto; /* Increased top/bottom margin */
+    max-width: 550px; /* Constrained width */
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    margin-top: 20px; /* Added margin */
+}
+
+.hero-buttons .btn {
+    text-decoration: none;
+    padding: 16px 32px; /* Adjusted padding */
+    border-radius: 8px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.hero-buttons .btn-primary {
+    background-color: white;
+    color: #1e1e1e;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: rgba(0, 0, 0, 0.25); /* Darker translucent */
+    color: white;
+}
+
